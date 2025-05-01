@@ -2,6 +2,9 @@
 
 **Smart Eyes** is a voice-activated personal assistant mobile application built to empower blind and visually impaired individuals. It allows users to independently perform safe daily tasks such as scene recognition, personal setup via speech, and hands-free app interaction using state-of-the-art AI.
 
+
+[_**Smart Eyes Demo**_](https://drive.google.com/file/d/12rXzk82v8SUFDCWMYRYsR19jekPVtKaT/view?usp=sharing)
+
 ---
 
 ## 📱 Key Features
