@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Smart Eyes",
+    "slug": "smart-eyes",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smarteyes.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to the camera to help analyze your surroundings",
+        "NSMicrophoneUsageDescription": "This app needs access to the microphone for voice commands",
+        "NSSpeechRecognitionUsageDescription": "This app needs access to speech recognition for voice commands",
+        "UIRequiresFullScreen": true
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.smarteyes.app",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "MODIFY_AUDIO_SETTINGS",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      "expo-localization"
+    ],
+    "newArchEnabled": true
+  }
+}
