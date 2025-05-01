@@ -135,4 +135,4 @@ Ideal skills:
 - React Native or mobile development
 - UX for accessibility and inclusive design
 
-> _Built with purpose by **[@ameentalahmeh](https://github.com/ameentalahmeh)**_
+> _Built with love by **[@ameentalahmeh](https://github.com/ameentalahmeh)**_
